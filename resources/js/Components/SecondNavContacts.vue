@@ -1,10 +1,40 @@
 <template>
+    <div class="flex items-center">
+        <svg xmlns="http://www.w3.org/2000/svg"
+             width="20" height="20"
+             viewBox="0 0 24 24"
+             fill="none"
+             stroke="currentColor"
+             stroke-width="2"
+             stroke-linecap="round"
+             stroke-linejoin="round"
+        class="text-green-500">
+            <path
+                d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"></path>
+            <polyline points="22,6 12,13 2,6">
 
+            </polyline>
+        </svg>
+
+        <p class="px-px">info@stechmaxsolar.com</p>
+    </div>
+    <div class="hidden md:flex items-center space-x-2">
+        <svg class="w-5 h-5 text-green-600" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 4h16v16H4V4zm2 14h12v-2H6v2zm0-4h12v-2H6v2zm0-4h12V8H6v2zm0-4h12V4H6v2z" />
+        </svg>
+        <p>(+231) 9147766260 / 8147118680</p>
+    </div>
+    <div class="hidden md:flex items-center space-x-2">
+        <svg class="w-5 h-5 text-green-600" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 4h16v16H4V4zm2 14h12v-2H6v2zm0-4h12v-2H6v2zm0-4h12V8H6v2zm0-4h12V4H6v2z" />
+        </svg>
+        <p>Mon - Fri, 8 am to 5 pm</p>
+    </div>
 </template>
 
 <script>
 export default {
-name: "SecondNavContacts"
+    name: "SecondNavContacts"
 }
 </script>
 

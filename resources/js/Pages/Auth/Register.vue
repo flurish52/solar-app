@@ -1,30 +1,10 @@
-<script setup>
-import GuestLayout from '@/Layouts/GuestLayout.vue';
-import InputError from '@/Components/InputError.vue';
-import InputLabel from '@/Components/InputLabel.vue';
-import PrimaryButton from '@/Components/PrimaryButton.vue';
-import TextInput from '@/Components/TextInput.vue';
-import { Head, Link, useForm } from '@inertiajs/vue3';
-
-const form = useForm({
-    name: '',
-    email: '',
-    password: '',
-    password_confirmation: '',
-});
-
-const submit = () => {
-    form.post(route('register'), {
-        onFinish: () => form.reset('password', 'password_confirmation'),
-    });
-};
-</script>
 
 <template>
-    <GuestLayout>
-        <Head title="Register" />
-
-        <form @submit.prevent="submit">
+    <MiniLanding
+    :pageName="pageName"
+    />
+        <div class="w-full flex-col md flex justify-center items-center -12">
+            <form @submit.prevent="submit">
             <div>
                 <InputLabel for="name" value="Name" />
 
@@ -109,5 +89,41 @@ const submit = () => {
                 </PrimaryButton>
             </div>
         </form>
-    </GuestLayout>
+        </div>
 </template>
+
+
+<script>
+import GuestLayout from "@/Layouts/GuestLayout.vue";
+
+export default {
+    name: 'Register',
+    layout: GuestLayout,
+}
+</script>
+
+<script setup>
+import InputError from '@/Components/InputError.vue';
+import InputLabel from '@/Components/InputLabel.vue';
+import PrimaryButton from '@/Components/PrimaryButton.vue';
+import TextInput from '@/Components/TextInput.vue';
+import {Link, useForm } from '@inertiajs/vue3';
+import MiniLanding from "@/Components/MiniLanding.vue";
+import {getCurrentInstance} from "vue";
+
+let instance = getCurrentInstance()
+let pageName = instance.type.name
+
+const form = useForm({
+    name: '',
+    email: '',
+    password: '',
+    password_confirmation: '',
+});
+
+const submit = () => {
+    form.post(route('register'), {
+        onFinish: () => form.reset('password', 'password_confirmation'),
+    });
+};
+</script>

@@ -1,3 +1,13 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+
+
+
+@layer base {
+    /* Apply word-spacing globally */
+    * {
+        word-spacing: 3px; /* Adjust to the spacing you need */
+    }
+}

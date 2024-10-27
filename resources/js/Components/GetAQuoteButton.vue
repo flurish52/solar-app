@@ -1,10 +1,16 @@
 <template>
-$END$
+    <div>
+        <button
+            @click = 'emitToggle'
+            class="bg-green-600 text-white px-4 py-2 rounded">GET QUOTE</button>
+    </div>
 </template>
 
-<script>
-export default {
-name: "GetAQuoteButton"
+<script setup>
+import {defineEmits} from 'vue'
+let emits = defineEmits(['toggle'])
+let emitToggle = () =>{
+    emits('toggle')
 }
 </script>
 
