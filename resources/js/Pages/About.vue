@@ -16,18 +16,18 @@
                     </p>
                 </div>
                 <div class="flex justify-center">
-                    <img src="https://www.elsierenewables.energy/_nuxt/img8.ecff22e1.jpg" alt="Challenge" class="rounded shadow-lg w-full md:w-auto">
+                    <img src="https://www.lifeboat.ventures/wp-content/uploads/2024/08/The-Biggest-Challenges-Faced-by-Renewable-Energy.png" alt="Challenge" class="rounded shadow-lg w-full md:w-auto">
                 </div>
             </div>
 
             <!-- The Solution Section -->
             <div class="grid grid-cols-1 md:grid-cols-2 gap-8">
                 <div class="flex justify-center order-2 md:order-1">
-                    <img src="https://www.elsierenewables.energy/_nuxt/img8.ecff22e1.jpg" alt="Solution" class="rounded shadow-lg w-full md:w-auto">
+                    <img src="https://miro.medium.com/v2/resize:fit:4724/format:webp/1*ZUld3LSHjFs5FAbtkN-UgQ.jpeg" alt="Solution" class="rounded shadow-lg w-full md:w-auto">
                 </div>
                 <div class="order-1 md:order-2">
-                    <h2 class="text-2xl font-bold text-white mb-4">The Solution:</h2>
-                    <p class="text-white">
+                    <h2 class="text-2xl font-bold text-black mb-4">The Solution:</h2>
+                    <p class="text-black">
                         Elite Renewable Solutions are designed to be affordable, healthy, and easier to use. Elite Renewable Home Systems are customized to provide stable electricity...
                     </p>
                 </div>

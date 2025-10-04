@@ -9,7 +9,7 @@
     />
     </div>
 <!--Landing section-->
-        <section class="relative bg-cover bg-center overlay bg-blend-multiply px-4 md:px-24 " :style="{ backgroundImage: 'url(https://www.elsierenewables.energy/_nuxt/img9.095932e5.jpg)' }">
+        <section class="relative bg-cover bg-center overlay bg-blend-multiply px-4 md:px-24 " :style="{ backgroundImage: 'url(https://www.bakerinstitute.org/sites/default/files/styles/16_9_small_564x317/public/2023-12/AdobeStock-291971973-Clean%2BEnergy.jpeg?h=384444d0&itok=OgI7L1EJ)' }">
             <div class="relative z-10 flex flex-col justify-center items-center md:items-start px-4  h-screen">
                 <h1 class="text-white text-3xl md:text-6xl font-bold mb-4 md:w-1/2 text-center md:text-left">Providing Renewable Power Solutions</h1>
                 <p class="text-white text-md md:text-lg max-w-xl mb-6 text-center md:text-left">
@@ -73,7 +73,7 @@
                     @click="emitToggle"
                     class="flex flex-col items-center pb-6 shadow-lg rounded-lg bg-green-600 hover:bg-green-400">
                     <img
-                        src="https://www.elsierenewables.energy/_nuxt/cctv.ba234937.jpeg"
+                        src="https://m.media-amazon.com/images/I/51eF-uWWFkL._SL1200_.jpg"
                         alt="Solar Powered CCTV Camera"
                         class="w-full h-40 object-cover mb-4"
                     />
@@ -90,7 +90,7 @@
                     @click="emitToggle"
                     class="flex flex-col items-center pb-6 shadow-lg rounded-lg bg-green-600 hover:bg-green-400">
                     <img
-                        src="https://www.elsierenewables.energy/_nuxt/fans.7c33fb7b.jpeg"
+                        src="https://m.media-amazon.com/images/I/81kYDSLvSXL._SL1500_.jpg"
                         alt="Solar Powered Fans"
                         class="w-full h-40 object-cover mb-4"
                     />
@@ -107,7 +107,7 @@
                     @click="emitToggle"
                     class="flex flex-col items-center pb-6 shadow-lg rounded-lg bg-green-600 hover:bg-green-400">
                     <img
-                        src="https://www.elsierenewables.energy/_nuxt/lights.e36e643d.jpeg"
+                        src="https://www.liperlighting.com/uploads/Liper-led-soalr-floodlight.jpg"
                         alt="Solar Powered Lights"
                         class="w-full h-40 object-cover mb-4"
                     />
